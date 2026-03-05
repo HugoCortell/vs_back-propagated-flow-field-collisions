@@ -1,2 +1,2 @@
-# vs_back-propagated-flow-field-collisions
-Using flow fields for collisions in a block game
+# Back-Propagated Flow Field Collisions for Vintage Story
+For modders too stupid to understand the multi-block system.
