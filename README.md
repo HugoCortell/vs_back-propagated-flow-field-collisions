@@ -24,4 +24,4 @@ For modders too stupid to understand the multi-block system.
 5. Profit
 
 Remember to always overwrite CanPlaceBlock for your BPFFC-enabled blocks, otherwise you might get malformed flowfields due to invalid block placement
-Now watch this youtube video because it covers it better than I could write it down: 
+Now watch this youtube video because it covers it better than I could write it down: https://www.youtube.com/playlist?list=PLD1qfOSzXxaTJvfVWHiSvNPfk0CFCUfDi
