@@ -1,0 +1,31 @@
+{
+	code: "flowfield_sample_statue",
+	class: "BlockFlowfieldSampleStatue",
+
+	shape: { base: "game:block/clutter/statue/statue01" },
+
+	collisionBoxes: [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+	selectionBoxes: [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+
+	blockmaterial: "Stone",
+	creativeinventory: { general: ["*"], decorative: ["*"] },
+
+	attributes: {
+		handbook: { exclude: true },
+
+		// collisionFlowFieldMode: "passthrough", // More flow field mode templates will be added in the future as needed
+		// collisionFlowFieldPassThrough: true,
+
+		collisionFlowField: [
+			{ pos: [-1, 0, -1], dir: 1, h8: 2 },
+			{ pos: [0, 0, -1], dir: 2, h8: 4 },
+			{ pos: [1, 0, -1], dir: 3, h8: 2 },
+			{ pos: [-1, 0, 0], dir: 1, h8: 4 },
+			{ pos: [1, 0, 0], dir: 3, h8: 1 },
+			{ pos: [0, 0, 1], dir: 0, h8: 1 },
+			{ pos: [0, 1, 0], dir: 5, h8: 8 },
+			{ pos: [0, 2, 0], dir: 5, h8: 8 },
+			{ pos: [0, 3, 0], dir: 5, h8: 5 }
+		]
+	}
+}
