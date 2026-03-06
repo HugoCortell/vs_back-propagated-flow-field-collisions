@@ -7,17 +7,17 @@ For modders too stupid to understand the multi-block system.
 
 1. Add this to your mod info in order to mark the mod as a dependency
 ```json
-  "dependencies": {
-    "collisionflowfields": "(the latest version)"
-  }
+	"dependencies": {
+		"collisionflowfields": "(the latest version)"
+	}
 ```
 2. Add the actual dependency to your mod's CSProj
 ```XML
 <ItemGroup>
-  <Reference Include="CollisionFlowFields">
-    <HintPath>Dependencies\\CollisionFlowFields.dll</HintPath>
-    <Private>false</Private>
-  </Reference>
+	<Reference Include="CollisionFlowFields">
+		<HintPath>Dependencies\\CollisionFlowFields.dll</HintPath>
+		<Private>false</Private>
+	</Reference>
 </ItemGroup>
 ```
 4. Make sure to have actually put a copy of the mod's dll into your dependencies folder
