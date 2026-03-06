@@ -7,9 +7,9 @@ For modders too stupid to understand the multi-block system.
 
 1. Add this to your mod info in order to mark the mod as a dependency
 ```json
-	"dependencies": {
-		"collisionflowfields": "(the latest version)"
-	}
+"dependencies": {
+	"collisionflowfields": "(the latest version)"
+}
 ```
 2. Add the actual dependency to your mod's CSProj
 ```XML
